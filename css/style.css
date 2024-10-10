@@ -10,6 +10,8 @@
 :root {
     --white: #ffffff;
     --licorice: #171212;
+    --kellygreen: #4cbb17;
+    --crimson: #b80f08;
 }
 
 html {
@@ -170,6 +172,16 @@ transform: scale(1, 1);
     color: var(--licorice)
 }
 
-.logos .logo-options {
-
+.logos .logo-options ul li.active {
+    background-color: var(--licorice);
+    color: var(--white);
 }
+
+.logos .logo-options ul li.success {
+    background-color: var(--kellygreen);
+}
+
+.logos .logo-options ul li.wrong {
+    background-color: var(--crimson);
+}
+
