@@ -1,7 +1,7 @@
 [
     {
-    "img": "audi.png", 
-    "options": ["BMW", "Ford", "Audi"],
-    "right_answer": "Audi"
+    "img": "flag-australia.png", 
+    "options": ["New Zealand", "United Kingdom", "Australia"],
+    "right_answer": "Australia"
 }
 ]
